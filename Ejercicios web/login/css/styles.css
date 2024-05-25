@@ -1,0 +1,183 @@
+/* estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(37, 36, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* estilos del contenedor del formulario*/
+
+.content__user{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content__user h1{
+    color: pink;
+    font-size: 3rem;
+}
+
+.content__user form{
+    background-color: pink;
+    padding: 5rem;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+/* estilos del formulario completo*/
+
+/* estilos de las celdas del formulario correo*/
+
+.form__one{
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3rem;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.form__one:hover{
+    background-color: #c1bebe;
+}
+
+/* Cambiar el color del texto del placeholder cuando se pasa el ratón sobre el div o el input */
+.form__one:hover input::placeholder,
+.form__one input:hover::placeholder {
+    color: #000; /* Cambia el color del placeholder cuando se pasa el ratón sobre el div o el input */
+}
+
+/* Cambiar el color del label y el input cuando se pasa el ratón sobre el div */
+.form__one:hover label,
+.form__one:hover input {
+    color: #000; /* Cambia el color del label y el input cuando se pasa el ratón sobre el div */
+}
+
+
+.form__one label{
+    width: 20%;
+    color: pink;
+    cursor: pointer;
+}
+
+.form__one input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    color: pink;
+}
+
+.form__one input::placeholder{
+    color: pink;
+    transition: 0.3 ease;
+}
+
+/* estilos del formulario contraseña*/
+
+.form__two{
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3rem;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.form__two:hover{
+    background-color: #c1bebe;
+}
+
+/* Cambiar el color del texto del placeholder cuando se pasa el ratón sobre el div o el input */
+.form__two:hover input::placeholder,
+.form__two input:hover::placeholder {
+    color: #000; /* Cambia el color del placeholder cuando se pasa el ratón sobre el div o el input */
+}
+
+/* Cambiar el color del label y el input cuando se pasa el ratón sobre el div */
+.form__two:hover label,
+.form__two:hover input {
+    color: #000; /* Cambia el color del label y el input cuando se pasa el ratón sobre el div */
+}
+
+
+.form__two label{
+    width: 20%;
+    color: pink;
+    cursor: pointer;
+}
+
+.form__two input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    color: pink;
+}
+
+.form__two input::placeholder{
+    color: pink;
+    transition: 0.3 ease;
+}
+
+/* estilos del formulario guardar*/
+
+.form__three{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    height: 3rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 1rem;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.form__three:hover{
+    background-color: #c1bebe;
+}
+
+/* Cambiar el color del texto del placeholder cuando se pasa el ratón sobre el div o el input */
+.form__three:hover input::placeholder,
+.form__three input:hover::placeholder {
+    color: #000; /* Cambia el color del placeholder cuando se pasa el ratón sobre el div o el input */
+}
+
+/* Cambiar el color del label y el input cuando se pasa el ratón sobre el div */
+.form__three:hover input {
+    color: #000; /* Cambia el color del label y el input cuando se pasa el ratón sobre el div */
+}
+
+.form__three input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    color: pink;
+}
+
+.form__three input::placeholder{
+    color: pink;
+    transition: 0.3 ease;
+}
